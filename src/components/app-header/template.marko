@@ -1,6 +1,13 @@
+<script marko-init>
+var urlManager = require('src/util/url-manager');
+
+</script>
+
 <macro link(title, url, name)>
     <li class=(name === data.activeSection && 'active')>
-        <a href="${url}">${title}</a>
+        <a href=urlManager.appUrl(url)>
+            ${title}
+        </a>
     </li>
 </macro>
 
