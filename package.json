@@ -15,7 +15,8 @@
     "express": "^4.13.4",
     "http-server": "^0.9.0",
     "lasso": "^2.2.0-beta.5",
-    "marko": "^3.0.7"
+    "marko": "^3.0.7",
+    "mkdirp": "^0.5.1"
   },
   "devDependencies": {},
   "repository": {
