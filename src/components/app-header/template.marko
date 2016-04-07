@@ -1,0 +1,22 @@
+<macro link(title, url, name)>
+    <li class=(name === data.activeSection && 'active')>
+        <a href="${url}">${title}</a>
+    </li>
+</macro>
+
+<header>
+    <div class="container">
+        <h1>
+            Your Awesome Site
+        </h1>
+        <nav>
+            <ul>
+                <link('Home', '/', 'home')/>
+                <link('Subscribe', '/subscribe', 'subscribe')/>
+                <link('About Me', '/about-me', 'about-me')/>
+            </ul>
+        </nav>
+    </div>
+    <div style="clear: both"></div>
+</header>
+

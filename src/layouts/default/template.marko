@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>
+        <layout-placeholder name="title"/>
+    </title>
+
+    <!-- All of our CSS will get inserted here -->
+    <lasso-head/>
+</head>
+<body>
+    <app-header active-section=data.activeSection />
+
+    <div class="container">
+        <main>
+            <h1>
+                <layout-placeholder name="title"/>
+            </h1>
+
+            <layout-placeholder name="content"/>
+        </main>
+    </div>
+
+    <!-- All of our JavaScript will get inserted here -->
+    <lasso-body/>
+
+    <browser-refresh/>
+</body>
+</html>

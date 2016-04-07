@@ -1,0 +1,46 @@
+header {
+    background-color: #000;
+    font-size: 22px;
+}
+
+
+header h1 {
+    float: left;
+    color: white;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav a {
+    font-weight: 300;
+    text-decoration: none;
+    color: #eee;
+    margin: 0 20px;
+    margin-left: 0;
+    display: inline-block;
+    padding-bottom: 10px;
+    padding-top: 34px;
+    border-bottom: 3px solid transparent;
+}
+
+nav a:hover {
+    color:#fdb725;
+    text-decoration: none;
+    border-bottom: 3px solid #fdb725;
+}
+
+nav li.active a {
+    border-bottom: 3px solid #fdb725;
+}
